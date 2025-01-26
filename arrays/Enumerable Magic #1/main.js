@@ -12,7 +12,7 @@
 // first way to solve it
 function all(arr, func) {
     for(let i = 0; i < arr.length; i++) {
-        if (!fun(arr[i])) {
+        if (!func(arr[i])) {
             return false;
         }
     }
