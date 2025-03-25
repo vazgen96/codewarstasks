@@ -12,3 +12,7 @@ function check(arr,x) {
     }
     return false
 }
+
+function check(arr,x) {
+    return arr.includes(x)
+}
